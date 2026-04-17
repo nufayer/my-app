@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "John Doe",
-    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "name": "Changli",
+    "picture": "https://i.ibb.co.com/7NkNjxTt/Screenshot-2026-04-17-224725.png",
     "email": "john.doe@example.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -13,8 +13,8 @@
   },
   {
     "id": 2,
-    "name": "Sarah Ahmed",
-    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "name": "Cantarella",
+    "picture": "https://i.ibb.co.com/tM7m2Pqj/Screenshot-2026-04-17-224830.png",
     "email": "sarah.ahmed@example.com",
     "days_since_contact": 5,
     "status": "on_track",
@@ -25,8 +25,8 @@
   },
   {
     "id": 3,
-    "name": "Rahim Khan",
-    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "name": "Zani",
+    "picture": "https://i.ibb.co.com/d4DDLsH6/Screenshot-2026-04-17-224911.png",
     "email": "rahim.khan@example.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -37,8 +37,8 @@
   },
   {
     "id": 4,
-    "name": "Emily Chen",
-    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "name": "Augusta",
+    "picture": "https://i.ibb.co.com/2Yf5FPSN/Screenshot-2026-04-17-224959.png",
     "email": "emily.chen@example.com",
     "days_since_contact": 2,
     "status": "on_track",
@@ -49,8 +49,8 @@
   },
   {
     "id": 5,
-    "name": "David Miller",
-    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "name": "Galbrena",
+    "picture": "https://i.ibb.co.com/YTK9wkXt/Screenshot-2026-04-17-225045.png",
     "email": "david.miller@example.com",
     "days_since_contact": 30,
     "status": "inactive",
@@ -61,8 +61,8 @@
   },
   {
     "id": 6,
-    "name": "Nusrat Jahan",
-    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "name": "Fleurdelys",
+    "picture": "https://i.ibb.co.com/0p8ZC8gJ/Screenshot-2026-04-17-225411.png",
     "email": "nusrat.jahan@example.com",
     "days_since_contact": 8,
     "status": "on_track",
@@ -73,8 +73,8 @@
   },
   {
     "id": 7,
-    "name": "Alex Johnson",
-    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "name": "Hiyuki",
+    "picture": "https://i.ibb.co.com/pBZP5MdX/Screenshot-2026-04-17-225638.png",
     "email": "alex.johnson@example.com",
     "days_since_contact": 16,
     "status": "overdue",
@@ -85,8 +85,8 @@
   },
   {
     "id": 8,
-    "name": "Fatima Noor",
-    "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "name": "Yinlin",
+    "picture": "https://i.ibb.co.com/6Jm6XpgT/Screenshot-2026-04-17-225725.png",
     "email": "fatima.noor@example.com",
     "days_since_contact": 3,
     "status": "on_track",
@@ -97,8 +97,8 @@
   },
   {
     "id": 9,
-    "name": "Michael Brown",
-    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "name": "Shorekeeper",
+    "picture": "https://i.ibb.co.com/QFfn06mK/Screenshot-2026-04-17-225751.png",
     "email": "michael.brown@example.com",
     "days_since_contact": 25,
     "status": "inactive",

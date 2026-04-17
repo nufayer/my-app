@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import "./globals.css";
+import { ToastContainer, toast } from 'react-toastify';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <ToastContainer />
       </body>
     </html>
   );

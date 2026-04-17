@@ -3,6 +3,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { addTimelineEntry } from "@/lib/timelineStorage";
+import { toast } from "react-toastify";
+import { Phone } from 'lucide-react';
+import { MessageSquareText } from 'lucide-react';
+import { Video } from 'lucide-react';
 
 function formatDate(dateString) {
   return new Intl.DateTimeFormat("en-UK", {
@@ -68,17 +72,17 @@ export default function FriendProfile({ friendId }) {
 
   const handleCall = () => {
     addTimelineEntry({ type: "call", friendName: friend.name });
-    alert(`Calling ${friend.name}`);
+    toast(`Calling ${friend.name}`);
   };
 
   const handleText = () => {
     addTimelineEntry({ type: "text", friendName: friend.name });
-    alert(`Texting ${friend.name}`);
+    toast(`Texting ${friend.name}`);
   };
 
   const handleVideo = () => {
     addTimelineEntry({ type: "video", friendName: friend.name });
-    alert(`Video calling ${friend.name}`);
+    toast(`Video calling ${friend.name}`);
   };
 
   return (
@@ -149,7 +153,7 @@ export default function FriendProfile({ friendId }) {
             </div>
           </div>
 
-          <div className="bg-white rounded-xl shadow p-6 flex justify-between items-center">
+          <div className="bg-white rounded-xl shadow p-6 h-35 flex justify-between items-center">
             <div>
               <p className="text-sm text-gray-500">Relationship Goal</p>
               <p className="font-medium text-gray-800">
@@ -169,7 +173,7 @@ export default function FriendProfile({ friendId }) {
                 onClick={handleCall}
                 className="border rounded-xl py-6 flex flex-col items-center hover:bg-gray-50"
               >
-                <span className="text-xl">Call</span>
+                <span className="text-xl"><Phone /></span>
                 <span className="mt-2 text-sm">Call</span>
               </button>
 
@@ -177,7 +181,7 @@ export default function FriendProfile({ friendId }) {
                 onClick={handleText}
                 className="border rounded-xl py-6 flex flex-col items-center hover:bg-gray-50"
               >
-                <span className="text-xl">Text</span>
+                <span className="text-xl"><MessageSquareText /></span>
                 <span className="mt-2 text-sm">Text</span>
               </button>
 
@@ -185,7 +189,7 @@ export default function FriendProfile({ friendId }) {
                 onClick={handleVideo}
                 className="border rounded-xl py-6 flex flex-col items-center hover:bg-gray-50"
               >
-                <span className="text-xl">Video</span>
+                <span className="text-xl"><Video /></span>
                 <span className="mt-2 text-sm">Video</span>
               </button>
             </div>
