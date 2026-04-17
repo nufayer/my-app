@@ -106,17 +106,5 @@
     "bio": "Old neighbor. Used to hang out during weekends.",
     "goal": 18,
     "next_due_date": "2026-04-01"
-  },
-  {
-    "id": 10,
-    "name": "Ayesha Rahman",
-    "picture": "https://randomuser.me/api/portraits/women/10.jpg",
-    "email": "ayesha.rahman@example.com",
-    "days_since_contact": 6,
-    "status": "on_track",
-    "tags": ["friend", "travel"],
-    "bio": "Travel buddy. Always planning the next trip.",
-    "goal": 10,
-    "next_due_date": "2026-04-19"
   }
 ]

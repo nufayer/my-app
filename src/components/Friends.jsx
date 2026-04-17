@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Friends = () => {
@@ -17,9 +18,10 @@ const Friends = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {friends.map((friend) => (
-          <div
+          <Link
             key={friend.id}
-            className="bg-white rounded-2xl shadow-md p-6 text-center"
+            href={`/friends/${friend.id}`}
+            className="bg-white rounded-2xl shadow-md p-6 text-center block transition hover:-translate-y-1 hover:shadow-lg"
           >
             <div className="flex justify-center mb-4">
               <img
@@ -59,7 +61,7 @@ const Friends = () => {
                 {friend.status}
               </span>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
