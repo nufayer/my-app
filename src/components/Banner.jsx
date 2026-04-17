@@ -11,7 +11,7 @@ const Banner = () => {
         Your personal shelf of meaningful connections. Browse, tend, and nurture the <br/>
          relationships that matter most.
       </p>
-      <button className="btn btn-default bg-green-800 border-none">+ Add Friend</button>
+      <button className="btn btn-default bg-green-800 border-none text-white">+ Add Friend</button>
     </div>
   </div>
 </div>

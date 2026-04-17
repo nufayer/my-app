@@ -1,6 +1,7 @@
 import NavBar from "@/components/NavBar";
 import Banner from "@/components/Banner";
 import Cards from "@/components/Cards";
+import Friends from "@/components/Friends";
 
 export default function Home() {
   console.log('Next js server');
@@ -9,6 +10,7 @@ export default function Home() {
       <NavBar></NavBar>
       <Banner></Banner>
       <Cards></Cards>
+      <Friends></Friends>
     </div>
   );
 }

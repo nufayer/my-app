@@ -17,9 +17,9 @@ const Header = () => {
     
   </div>
   <div className="navbar-end gap-2">
-    <a className="btn">Home</a>
-    <a className="btn">Time Line</a>
-    <a className="btn">Stats</a>
+    <a className="btn bg-green-800 border-none text-white">Home</a>
+    <a className="btn bg-green-800 border-none text-white">Time Line</a>
+    <a className="btn bg-green-800 border-none text-white">Stats</a>
   </div>
 </div>
         </div>
