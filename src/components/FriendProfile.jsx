@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { addTimelineEntry } from "@/lib/timelineStorage";
 
 function formatDate(dateString) {
-  return new Intl.DateTimeFormat("en-US", {
+  return new Intl.DateTimeFormat("en-UK", {
     month: "short",
     day: "numeric",
     year: "numeric",

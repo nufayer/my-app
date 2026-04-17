@@ -2,6 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { House } from 'lucide-react';
+import { Clock9 } from 'lucide-react';
+import { ChartSpline } from 'lucide-react';
 
 function getNavButtonClass(isActive) {
   return isActive
@@ -43,18 +46,19 @@ export default function Header() {
 
       <div className="navbar-end gap-2">
         <Link href="/" className={getNavButtonClass(pathname === "/")}>
+        <House />
           Home
         </Link>
         <Link
           href="/timeline"
-          className={getNavButtonClass(pathname.startsWith("/timeline"))}
-        >
+          className={getNavButtonClass(pathname.startsWith("/timeline"))}>
+          <Clock9 />
           Timeline
         </Link>
         <Link
           href="/stats"
-          className={getNavButtonClass(pathname.startsWith("/stats"))}
-        >
+          className={getNavButtonClass(pathname.startsWith("/stats"))}>
+          <ChartSpline />
           Stats
         </Link>
       </div>
