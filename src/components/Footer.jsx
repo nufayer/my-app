@@ -4,12 +4,12 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto text-center">
         
         {/* Brand */}
-        <h1 className="text-4xl font-semibold tracking-wide">
+        <h1 className="text-5xl font-semibold tracking-wide">
           KeenKeeper
         </h1>
 
         {/* Tagline */}
-        <p className="mt-4 text-sm text-white/80 max-w-xl mx-auto">
+        <p className="mt-4 text-sm text-white mx-auto">
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
 

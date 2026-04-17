@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { addTimelineEntry } from "@/lib/timelineStorage";
 
 function formatDate(dateString) {
   return new Intl.DateTimeFormat("en-US", {
@@ -65,9 +66,20 @@ export default function FriendProfile({ friendId }) {
     );
   }
 
-  const handleCall = () => alert(`Calling ${friend.name}`);
-  const handleText = () => alert(`Texting ${friend.name}`);
-  const handleVideo = () => alert(`Video calling ${friend.name}`);
+  const handleCall = () => {
+    addTimelineEntry({ type: "call", friendName: friend.name });
+    alert(`Calling ${friend.name}`);
+  };
+
+  const handleText = () => {
+    addTimelineEntry({ type: "text", friendName: friend.name });
+    alert(`Texting ${friend.name}`);
+  };
+
+  const handleVideo = () => {
+    addTimelineEntry({ type: "video", friendName: friend.name });
+    alert(`Video calling ${friend.name}`);
+  };
 
   return (
     <div className="min-h-screen bg-gray-100 p-6 flex justify-center items-start">
